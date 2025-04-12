@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button } from '../src/components/ui/button';
-import { RadioGroup, RadioGroupItem } from "../src/components/ui/radiog";
 import { Label } from '../src/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle } from '../src/components/ui/card';
 import { cn } from "../src/lib/utlis";
-import { CheckCircle, Circle, XCircle, AlertTriangle } from 'lucide-react';
+import { CheckCircle, XCircle, AlertTriangle } from 'lucide-react';
 
 import { useEffect } from 'react';
 // Quiz Data (Questions and Answers)
